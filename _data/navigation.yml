@@ -8,26 +8,41 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  # - title: "Talks"
+  #   url: /talks/
+
+  # - title: "Teaching"
+  #   url: /teaching/
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Projects"
+    url: /projects/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Skills"
+    url: /skills/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Education"
+    url: /education/
+
   - title: "CV"
-    url: /cv/
-    
+    url: /files/Shankhanil_Resume.pdf
+
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+
   # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+  #   url: /cv/
+
+  # # - title: "CV"
+  # #   url: /cv-json/
+
+  # - title: "Guide"
+  #   url: /markdown/
