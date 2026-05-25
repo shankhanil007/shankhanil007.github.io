@@ -1,0 +1,29 @@
+---
+layout: archive
+title:
+permalink: /experience/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+  .experience-section-title {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 10px;
+  }
+</style>
+
+{% assign professional = site.experience | where: "category", "Professional" %}
+{% assign research = site.experience | where: "category", "Research" %} {% if
+professional.size > 0 %}
+<h1 class="page__title experience-section-title">Professional Experience</h1>
+{% for post in professional %} {% include archive-single-experience.html %} {%
+endfor %} {% endif %}
+
+<br />
+<br />
+{% if research.size > 0 %}
+<h1 class="page__title experience-section-title">Research Experience</h1>
+{% for post in research %} {% include archive-single-experience.html %} {%
+endfor %} {% endif %}
