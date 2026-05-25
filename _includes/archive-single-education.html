@@ -44,7 +44,10 @@
     </div>
     <p> <strong>GPA:</strong> {{ post.gpa }}</p>
     <p> {{post.highlight}} </p>
-    <p> <strong>Relevant Coursework:</strong> {{ post.coursework }}</p>
+    {% if post.coursework %}
+      <p> <strong>Relevant Coursework:</strong> {{ post.coursework }}</p>
+    {% endif %}
+    
 
 
   </article>

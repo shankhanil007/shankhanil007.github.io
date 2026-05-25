@@ -6,9 +6,11 @@ excerpt: '
   <img src="./travelo.jpeg" alt="Project Image" style="width: 400px; 
   border-radius: 8px; margin-bottom: 40px">
   <div>
-    Built a web application capable of automatically parsing lengthy travel blogs to extract tourist destinations and generate an itinerary. The application also plots an efficient route connecting the travel destinations on a map.
+    Web application to <b>parse</b> lengthy travel blogs, extract tourist destinations and generate an itinerary. It also plots an <b>efficient route</b> connecting the travel destinations on a map.
     <br><br>
-    <a href="https://github.com/shankhanil007/Travelo/">🔗 Repo Link</a>
+    <b>Technologies: </b> <i>Named-Entity-Recognition (NER), Mapbox, Flask, Twilio, React.js, Node.js, MongoDB</i>
+    <br><br>
+    🔗 <a href="https://github.com/shankhanil007/Travelo/">GitHub</a>
   </div>
 </div>
 '
