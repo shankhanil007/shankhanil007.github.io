@@ -1,11 +1,11 @@
 ---
-title: "Research Intern"
+title: "Research Fellow"
 collection: experience
 category: Research
-venue: "Indian Space Research Organization (ISRO)"
-date1: Dec 2020
-date2: Feb 2021
+venue: "Indian Institute of Technology Delhi"
+date1: May 2021
+date2: Jul 2021
 excerpt: |
-  - Developed a **geolocation algorithm** to map Mask R-CNN instance segmentation outputs to precise geo-coordinates in satellite imagery.
-  - Supported ISRO's research on geolocation-aware deep learning models for remote sensing applications.
+  - Applied **Twin Neural Networks** to address class imbalance in a COVID-19 chest X-ray dataset having fewer positive samples.
+  - Improved classification accuracy by **5%** over a baseline CNN.
 ---

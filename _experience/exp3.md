@@ -1,11 +1,11 @@
 ---
-title: "Summer Research Fellow"
+title: "Software Engineer Intern"
 collection: experience
-category: Research
-venue: "Indian Institute of Technology Delhi"
-date1: May 2021
-date2: July 2021
+category: Professional
+venue: "JPMorgan Chase, India"
+date1: May 2022
+date2: Jul 2022
 excerpt: |
-  - Implemented **Twin Augmentation** to address class imbalance in Covid-19 chest X-ray classification.
-  - Improved accuracy of pre-trained classifiers by **5%**.
+  - Designed a **Kinesis Firehose** pipeline from on-premise to S3 data lake. Configured dynamic partitioning to route incoming data to dedicated S3 bucket prefixes and boost analytical query performance.
+  - Built a serverless ETL job (**Lambda + AWS Data Wrangler**) to convert JSON payload to Parquet, cutting S3 storage footprint by **34%**.
 ---

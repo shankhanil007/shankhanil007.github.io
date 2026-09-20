@@ -2,18 +2,18 @@
 title: ""
 collection: skills
 excerpt: |
-  ### Languages
-  Python, C++, Java
+  ### Programming
+  Python, C++, Java, JavaScript, SQL, HTML/CSS
 
-  ### AI & Machine Learning
-  TensorFlow, Keras, PyTorch, Pandas, NumPy, scikit-learn, OpenCV
+  ### Cloud & Data
+  AWS (Redshift, Aurora, Lambda, API Gateway, Kinesis, S3), Terraform, PostgreSQL, MySQL, MongoDB
 
-  ### Cloud & DevOps
-  AWS, GCP, Terraform
+  ### ML / AI
+  PyTorch, TensorFlow/Keras, OpenCV, NumPy, Pandas, NLP, RAG & Agentic AI, OpenAI/Anthropic/Gemini APIs
 
-  ### Databases
-  MySQL, MongoDB, DynamoDB, Aurora, Redshift
+  ### Engineering
+  Django, Flask, Node.js, React, Docker, REST APIs, CI/CD, Git, Distributed Systems, Linux/Unix, Networks
 
-  ### Web Technologies
-  React, Node.js, Django, Docker, WebRTC, Sockets.IO
+  ### Certifications
+  [AWS Certified AI Practitioner](https://www.credly.com/badges/f6efe5ff-7a33-4178-b3d1-54fefd16dd25/public_url), [AWS Certified Cloud Practitioner](https://www.credly.com/badges/c32202c0-6cf4-4124-ae37-3933d1ed129e/public_url)
 ---

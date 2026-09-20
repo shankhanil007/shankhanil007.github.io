@@ -19,8 +19,8 @@ let determineComputedTheme = () => {
   return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
 };
 
-// detect OS/browser preference
-const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+// Default theme when the visitor hasn't chosen one (ignores the OS/browser preference)
+const browserPref = 'light';
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
@@ -90,14 +90,8 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // If the user hasn't chosen a theme, use the light default
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
